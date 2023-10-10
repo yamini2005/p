@@ -1,0 +1,9 @@
+#write a program to calculate emi 
+p=int(input())
+t=int(input())
+r=int(input())
+m=int(input())
+a=int(input())
+si=p*t*r/100
+emi=si+p-a/m
+print(emi)
